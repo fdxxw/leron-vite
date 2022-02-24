@@ -1,0 +1,16 @@
+{
+  "name": "@leron-vite/core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xingxiaowen <xiaowen.xing@accuenergy.com.cn>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vite build"
+  }
+}
