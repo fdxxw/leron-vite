@@ -1,7 +1,11 @@
 {
   "name": "leron-vite",
   "private": true,
+  "workspaces": [
+    "packages/core"
+  ],
   "scripts": {
+    "boot": "lerna bootstrap",
     "build:core": "lerna run build --stream --scope=@leron-vite/core"
   },
   "devDependencies": {
